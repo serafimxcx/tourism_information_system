@@ -1,0 +1,99 @@
+body{   
+    background-color: white;
+    overflow: auto;
+    
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#footercontainer{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+#footertitle{
+    font-size: 10px;
+}
+
+.contentdiv{
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.container{
+    width: 100%;
+}
+
+#title_div{
+    padding-right: 30px;
+}
+
+
+
+#page-title{   
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+.change_div{
+    margin-top: 30px;
+}
+
+.txt_pass{
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.btn_cpass{
+    border: none;
+    padding: 7px 16px;
+    background-color: #008f39;
+    color: white;
+    border-radius: 40px;
+}
+
+@media (max-width: 750px){
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    .searchdiv{
+        float: left;
+    }
+
+    .contentdiv{
+
+        width: 90%;
+    
+    }
+
+
+    
+}

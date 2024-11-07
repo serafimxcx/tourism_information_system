@@ -1,0 +1,61 @@
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Louver Window', 'Solid wooden louvers and windows, composed of parallel wooden louvers set in a frame. The louvers are joined onto a track so that they maybe tilted open and shut in unison to control airflow. Consistent airflow into home, keeping the interior cool, comfortable and healthy. Design to regulate airflow and light penetration.', 'louver.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Television Set', '1946 James Linderberg founded Bolinao electronic Company (BEC). Dubbed as “The Father of Philip;ine Television.” 
+       1953 Antonio Quirion bought 70% of BEC, changing the name to ABS (Alto Broadcasting System). October 23, 1953 DZAQ-TV Channel 3 and DZAQ-AM Radio, first telecast covering a 50 mile radius.
+        1956 ABS was sold to Lopez Family, turning it to Chronicle Broadcasting Network (CBN).
+1966 ABS-CBN was the biggest network during martial law.
+', 'tv.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Everett Piano Company', 'Founded: 1883 by John J. Church Company in Boston Massachusetts.
+         Headquarters: South Haven Michigan, United States.
+         Later acquired by: Yamaha Corporation.
+', 'piano.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Colonnade', 'Solid hard wood Narra with intricate hand crafted designs. Consist of four (4) columns, three (3) arches and two (2) cabinets. A separation mark between the Salas and Dinning area.
+', 'colonnade.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Console', 'Made with Narra and Bamboo.
+Console or pier table: A console table has one plain, straight side that is placed up against a wall. The other side of the table can be quite ornate. Console or pier tables of the late 17th century were accent tables that were attached to the wall, which were visually reminiscent of a pier that juts out from one end of land into the water.
+
+', 'console.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Singer Sewing Machine', 'Since the invention of the first sewing machine, generally considered to have been the work of Englishman Thomas saint in 1790. From then on the sewing machine has greatly improved the efficiency and productivity of the clothing industry.
+ Registered Letter: EF
+Register No. from: 288931 – To: 488930
+Machine Class Model No. 15k
+Date and Year: October 11, 1949
+
+', 'sewingmachine.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Vintage Bedside Lamp', 'A bedside lamp is a light that is placed next to a bed. It is usually small in size so it can fit on a nightstand or table, but basically any lamp designed to be near the bed could be called a beside lamp. Another restored vintage lamp with a floral design glass panels.
+', 'lamp.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Double Leaf Door and Transom Window', 'Made of hard wood that has a decorative grill iron that veil the surface of the glass, wood frame with ionic order-like on both sides. Transom window or  “ fanlight” is a window set above the transom door or larger window.
+', 'doorwindow.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('High Ceiling Living Room', 'The house feels more spacious and luxurious. Abundant natural light. Fill a home with lots of light, giving it an open, grand look and feel. 
+', 'ceiling.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Vintage Pottery Water Jar', 'Back in the days, clay pots are used to store drinking water because they help to keep the water cool. Drinking water from the clay pot helps improver metabolism. That’s because it is free from all harmful chemicals that are found in plastic containers. Water stored in clay pots taste sweet. Not just that, but also feels gentle on your throat.
+', 'jar.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Araro', ' In Filipino, araro means plow. It is a traditional farming tool that is used to till the soil and prepare it for planting. The araro is made up of a wooden frame and a metal blade that is pulled by a carabao or water buffalo.
+', 'araro.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Coffee Grinder', 'The first coffee mill, made specifically to grind coffee beans, was invented by Englishman Nicholas Book in the late 17th Century, Coffee was placed in the top of the lever device and was grinded into a bottom drawer. In 1798, the first American patent on an improved coffee grinding mill was granted to Thomas Bruff, Sr., a dentist, and inventor. It was a wall-mounted mill fitted with iron plates.
+', 'coffeegrinder.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Lusong and Halo (Mortar and Pestle)', 'It was necessity for every household until the early 20th century. It was used for processing rice, separating the husk and the grain. It can be used also for preparing cacao as pounding the seeds which separates the kernels from the shells. The last but not the least, the nilupak, grinding boiled “saba” (native banana cultivar) with grated coconut and sugar.
+', 'mortarpestle.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Cornisa Wood Ceiling', 'A flower like shapes on all corners of the ceiling frame, made of Narra wood, hand crafted and hammer. It  gives additional grandeur designs of the ceiling.
+', 'woodceiling.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Solohiya', 'More popularly known in the Philippines as Solohiya, this rattan weaving technique (also known as caning) has made its comeback in the international furniture scene in recent years. Whether as a backrest for chairs, as a screen, or for armoire doors and sideboards, its distinct sunburst pattern gives a refreshing tropical vibe that is timeless and easy on the eye.
+', 'solohiya.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Puyat Furniture', 'House of Puyat is continuing legacy on its ‘well-crafted, proudly Filipino made furniture. From 1920s to 1960s, the most coveted furniture pieces in the Philippines. The company’s furniture pieces were virtually found in every corner of the country, from low-cost residence, lavish mansions, the  Malacanang palace and even in national heritage sites. By 1960, the House of Puyat had become the most lucrative furniture company in the east. They are also behind in manufacturing quality billiard table and majestic narra altars in St. James the Apostle Parish Church known as Betis Church which declared a National Cultural Treasure Commission for Cultural and Arts of the Philippines (NCCA).
+', 'puyat.png');
+
+insert into tbl_furnitures(fld_name, fld_desc, fld_image) values ('Solomon\'s twist', 'Spiral post made by foreman master carpenter, Mang Amado, Known as the builder of the heritage in Sariaya, Lucena and other nearby Quezon Province. Additional design and distinct separation of Salas and Dining Area. Meticulously hand crafted.
+', 'twist.png');

@@ -1,0 +1,109 @@
+body{   
+    background-color: white;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+
+.contentdiv{
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+#container_content_div{
+    padding-top: 40px;
+}
+
+.terms_div{
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    padding-bottom: 150px;
+}
+
+.term_title{
+    font-weight: bold;
+    color:#008f39;
+}
+
+.term_subtitle{
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+a, a:active, a:visited, a:link{
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 750px){
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    #navbar{
+        width: 60%;
+    }
+
+    #centertitle{
+        font-size: 50px;
+    }
+    
+    .centersubtitle{
+        font-size: 15px;
+    }
+
+    .center_container{
+        width: 90%;
+    }
+
+    #btn_content{
+        display: none;
+    }
+
+    #container_content_div{
+        padding-top: 0;
+    }
+
+
+    
+
+    
+}

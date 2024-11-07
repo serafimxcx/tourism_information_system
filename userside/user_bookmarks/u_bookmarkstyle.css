@@ -1,0 +1,340 @@
+body{   
+    background-color: white;
+    overflow: auto;
+    
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+#title_div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#footercontainer{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+#footertitle{
+    font-size: 10px;
+}
+
+.contentdiv{
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.bookmarks_menudiv{
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: auto;
+}
+
+#tbl_d_menu{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#tbl_d_menu td{
+    width: 100px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+}
+
+a, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00bd1c;
+}
+
+
+.result_div{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: auto;
+}
+
+/* destinations bookmarks */
+.news_container{
+    padding-top: 30px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.destinations_container{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.shortcut_destination{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.shortcut_destination:hover .overlay{
+    opacity: 1;
+}
+
+.mainImage{
+    width: 100%;
+    height: 100%;
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.463);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centeredtxt {
+color: white;
+font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+
+
+
+/* event bookmark */
+.mainImage_event{
+    max-width: 300px;
+    max-height: 250px;
+    margin: 30px;
+}
+
+.eventscontainer{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+
+.i_event{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.i_event_info{
+    text-align: left;
+}
+
+.btn_more_events{
+    background: transparent;
+    border: none;
+    float: right;
+}
+
+
+#more_icon{
+    vertical-align: middle;
+    width: 25px;
+    height: auto;
+    padding-left: 5px;
+}
+
+#txt_more{
+    vertical-align: middle;
+    font-weight: bold;
+    color: #2DD846;
+}
+
+
+
+#status_nys, #status_f, #status_o{
+    color: white;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+#status_nys{
+    background-color: #f0ad4e;
+}
+
+#status_f{
+    background-color: #d9534f;
+}
+
+#status_o{
+    background-color: #5cb85c;
+}
+
+.d_content{
+    text-align: justify;
+    line-height: 2;
+}
+
+.shortcut_news{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+    
+}
+
+.centeredtxt_news {
+    top: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.news_title{
+    font-weight: bold;
+}
+
+.news_date{
+    color: #cccccc;
+}
+
+.category_newsinfo,.category_business, .category_lifestyle, .category_et, .category_tech{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.category_newsinfo{
+    background-color: #d9534f ;
+}
+
+.category_business{
+    background-color: #5bc0de;
+}
+
+.category_lifestyle{
+    background-color: #5cb85c;
+}
+
+.tips_container, .guidelines_container{
+    padding: 30px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.centeredtxt_tips, .centeredtxt_guidelines {
+    top: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.tips_title, .guidelines_title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tips_date, .guidelines_date{
+    color: #cccccc;
+}
+
+.btn_more_tips, .btn_more_guidelines{
+    background: transparent;
+    border: none;
+}
+
+#page-title{   
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+}
+
+@media (max-width: 750px){
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    #title_searchdiv{
+        margin-bottom: 50px;
+    }
+
+    .bookmarks_menudiv{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #tbl_d_menu{
+        width: 1000px;
+    }
+
+    
+}

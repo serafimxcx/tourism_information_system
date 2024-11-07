@@ -1,0 +1,513 @@
+body{   
+    background-color: white;
+    overflow: auto;
+    
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+}
+
+
+#title_div{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#footercontainer{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+#footertitle{
+    font-size: 10px;
+}
+
+.contentdiv{
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    margin-top: 80px;
+
+}
+
+.container{
+    width: 100%;
+}
+
+.destinations_menudiv{
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow-x: auto;
+}
+
+#tbl_d_menu{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#tbl_d_menu td{
+    width: 100px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    cursor: pointer;
+    font-family: 'Jost', sans-serif;
+    font-size: 15px;
+}
+
+a, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #00bd1c;
+}
+
+#basedRating:hover{
+    text-decoration: none;
+    color: #00bd1c;
+    cursor: pointer;
+}
+
+.result_destinationsdiv{
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    height: auto;
+}
+
+.destinations_container{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.shortcutsdiv{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.shortcutsdiv:hover .overlay{
+    opacity: 1;
+}
+
+.mainImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.463);
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.centeredtxt {
+color: white;
+font-weight: bold;
+  font-size: 20px;
+
+  text-align: center;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+
+
+.n_destinationdiv{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 50px;
+    padding-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+/*start- automatic slideshow*/
+.mySlides {
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.uploaded_images {
+    vertical-align: middle;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+body{   
+    background-color: white;
+    overflow: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+/* end- automatic slideshow*/
+
+.destination_infodiv{
+    padding-left: 10px;
+}
+
+img.icon_destinations{
+    width: 20px;
+    height: auto;
+    vertical-align: top;
+}
+
+.btn_back{
+    background: transparent;
+    border: none;
+}
+
+#back_icon{
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+}
+
+#txt_back{
+    vertical-align: middle;
+    font-weight: bold;
+    color: #2DD846;
+}
+
+.a_rf_div{
+    margin-bottom: 50px;
+}
+
+.a_rf_icons{
+    width: 25px;
+    margin-right: 10px;
+}
+
+.td_view{
+    vertical-align: top;
+}
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 90;
+    justify-content: center;
+    align-items: center;
+}
+
+#viewgallery_div{
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.destination_imagesdiv{
+    margin-bottom: 30px;
+}
+
+.img_destinations{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#write_review_div{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#average_rating{
+    font-size: 50px;
+    padding-right: 10px;
+}
+
+
+
+.submit_star_div{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#mini_dp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.btn_setup{
+    border: none;
+    padding: 5px 16px;
+    background-color: #008f39;
+    color: white;
+    border-radius: 50px;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 20px;
+}
+
+#btn_ar{
+    background-color: #008f39; color: white; border: none; border-radius: 10px; padding: 5px 15px;
+}
+
+.star-light
+{
+	color:#e9ecef;
+}
+
+#viewreviews_div{
+    width: 50%;
+    height: auto;
+    max-height: 85%;
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.i_reviews{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#mini_dp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#story_writer_name{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+#story_writer_username{
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+#story_datetime{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+.btn_bookmark{
+    width: 30px;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+#page-title{
+    
+    font-size: 35px;
+    font-family: 'Jost', sans-serif;
+
+}
+
+
+.searchdiv_m{  
+    position: relative;
+    display: block;
+    margin-top: 25px;
+}
+
+#search_m{  
+    background-color: rgb(239, 239, 239);
+    padding: 5px;
+    padding-left: 20px;
+    border-radius: 20px;   
+    width: 250px;
+    white-space: normal;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    
+}
+
+
+#txt_search_m{
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.admin_result{
+    padding: 10px;
+    
+}
+
+.admin_result:hover{
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+
+.control_photo{
+    font-size: 40px;
+    cursor: pointer;
+    color: #2DD846;
+}
+
+.control_photo:hover{
+    opacity: 0.5;
+}
+
+.hw_m_photos_div{
+    width: 50vw;
+    overflow-x: hidden;
+    margin: 0 auto;
+}
+
+
+.hw_m_photos{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+      
+}
+
+.hw_m_otherimages{
+    padding: 10px;
+    max-width: 500px;
+    max-width: 400px;
+}
+
+.hw_m_desc{
+    text-align: justify;
+    font-size: 17px;
+    line-height: 2.0;
+}
+
+.next_icon{
+    font-size: 20px;
+}
+
+@media (max-width: 750px){
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+
+    #title_searchdiv{
+        margin-bottom: 50px;
+    }
+
+    .destinations_menudiv{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #tbl_d_menu{
+        width: 1500px;
+    }
+
+    #write_review_div{
+        width: 80%;
+    }
+
+    #viewreviews_div{
+        width: 80%;
+    }
+
+    .uploaded_images {
+        vertical-align: middle;
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    
+}

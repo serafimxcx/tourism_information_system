@@ -1,0 +1,381 @@
+body{   
+    background-color: white;
+}
+
+#container{
+    height:auto;
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    overflow: hidden;
+    position: fixed;
+    z-index: 10;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#headertitle{
+    text-align: center;
+    font-weight: bold;
+}
+
+#headertitle2{
+    float: right;
+    font-weight: bold;
+}
+
+.dashboard_row{
+    padding: 30px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dashboard_col{
+    padding: 20px;
+}
+
+#activitylog_div{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+
+#feedbacks_div{
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    
+}
+
+.no_user_admin_div{
+    width: 100%;
+    padding: 15px;
+    padding-right: 20px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.no_user_admin_div::before{
+   
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.871);
+    
+}
+
+#admin_div{
+    background-image: url("/tourism_information_system/btn_icons/admin_icon.png");
+    background-size: 100px;
+    position: relative;
+    background-position-x: -25px;
+    background-position-y:  -3px;
+}
+
+#user_div{
+    background-image: url("/tourism_information_system/btn_icons/user_icon.png");
+    background-size: 150px;
+    position: relative;
+    background-position-x: -40px;
+    background-position-y:  20px;
+}
+
+
+.txt{
+    font-size: 25px;
+    font-weight: bold;
+    color: #2a2a2a;
+    padding-left: 20px;
+    position: relative;
+
+}
+
+.num_useradmin{
+    font-size: 40px;
+    font-weight: 800;
+    color: #00DB58;
+    width: auto;
+    text-align: right;
+    white-space: normal;
+    position: relative;
+    padding-right: 20px;
+    text-shadow: 2px 2px #eaeaead8;
+    
+}
+
+.user_verify_div{
+    position: relative;
+    margin-left: 20px;
+    width: 100%;
+    font-size: 15px;
+}
+
+.admin_col{
+    overflow: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 5px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: -20px;
+    background-position-y:  20px;
+    
+}
+
+
+.admin_col::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 255, 255, 0.871);
+}
+
+#destination_div{
+    background-image: url("/tourism_information_system/btn_icons/destination_icon.png");  
+    position: relative;
+}
+
+#events_div{
+    background-image: url("/tourism_information_system/btn_icons/events_icon.png");
+    position: relative;
+}
+
+#news_div{
+    background-image: url("/tourism_information_system/btn_icons/news_icon.png");
+    position: relative;
+}
+
+#tips_div{
+    background-image: url("/tourism_information_system/btn_icons/tips_icon.png");
+    position: relative;
+}
+
+#guidelines_div{
+    background-image: url("/tourism_information_system/btn_icons/guidelines_icon.png");
+    position: relative;
+}
+
+#hotlines_div{
+    background-image: url("/tourism_information_system/btn_icons/hotlines_icon.png");
+    position: relative;
+}
+
+#hospitals_div{
+    background-image: url("/tourism_information_system/btn_icons/hospitals_icon.png");
+    position: relative;
+}
+
+#stores_div{
+    background-image: url("/tourism_information_system/btn_icons/store_icon.png");
+    position: relative;
+}
+
+#stories_div{
+    background-image: url("/tourism_information_system/btn_icons/stories_icon.png");
+    position: relative;
+}
+
+#comments_div{
+    background-image: url("/tourism_information_system/btn_icons/comment_filled_icon.png");
+    position: relative;
+}
+
+#replies_div{
+    background-image: url("/tourism_information_system/btn_icons/reply_icon.png");
+    position: relative;
+}
+
+#reviews_div{
+    background-image: url("/tourism_information_system/btn_icons/reviews_icon.png");
+    position: relative;
+}
+
+
+
+.admin_txt{
+    line-height: 1.6;
+    position: relative;
+    color: #2a2a2a;
+}
+
+.num_contents{
+    font-size: 50px;
+    color: #00DB58;
+    font-weight: bold;
+    vertical-align: bottom;
+    padding-left: 10px;
+    position: relative;
+    text-shadow: 2px 2px #eaeaead8;
+    
+}
+
+.star-light
+{
+	color:#e9ecef;
+}
+
+.star_div{
+    font-size: 12px;
+}
+
+.average_div{
+    
+    text-align: center;
+}
+
+.average_rating{
+    font-weight: bold;
+    color: #00DB58;
+    font-size: 40px;
+}
+
+.average_star_div{
+    font-size: 20px;
+}
+
+#desc_rating{
+    font-weight: bold;
+}
+
+.total_review_div{
+    color: #00DB58;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+
+.total_review_div2{
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.star_div{
+    text-align: right;
+}
+
+#total_star_div{
+    border-left: 1px solid rgb(192, 192, 192);
+}
+
+#mini_dp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#story_writer_name{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+#story_writer_username{
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+#story_datetime{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+#btn_viewreviews, #btn_viewallact{
+    color: #2DD846;
+    font-weight: bold;
+}
+
+.activitydiv{
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow: auto;
+}
+
+@media (max-width: 750px){
+    #headercontainer{
+        padding: 10px;
+    }
+
+    #headertitle{
+        text-align: center;
+        font-size: 17px;
+        vertical-align: middle;
+        
+    }
+
+    #headertitle2{
+        display: block;
+        text-align: right;
+        font-size: 17px;
+        margin-right: 10px;
+        
+    }
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    #navbar{
+        width: 60%;
+    }
+
+    .star_div{
+        font-size: 10px;
+    }
+
+    .average_div{
+        margin-bottom: 50px;
+    }
+
+    #total_star_div{
+        border-left: none;
+    }
+
+    
+}

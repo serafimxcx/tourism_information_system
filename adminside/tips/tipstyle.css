@@ -1,0 +1,90 @@
+body{   
+    background-color: white;
+}
+
+#container{
+    height:auto;
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#headertitle{
+    float: right;
+    font-weight: bold;
+}
+
+#addbtndiv{
+    padding-bottom: 20px;
+}
+
+.tipsdiv{
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow: auto;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+#div_add_tips{
+    width: 60%;
+    height: auto;
+    max-height: 90%;
+    background-color: white;
+    padding: 2rem;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 750px){
+    #headercontainer{
+        padding: 10px;
+    }
+
+    #headertitle{
+        display: block;
+        text-align: right;
+        font-size: 17px;
+        margin-right: 10px;
+        
+    }
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    #navbar{
+        width: 60%;
+    }
+
+    
+}

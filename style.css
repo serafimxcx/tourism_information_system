@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Mulish:wght@1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Montserrat:wght@200&family=Mulish:wght@1000&display=swap');
+
+* {
+    box-sizing: border-box;
+       
+}
+
+ body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+
+a, a:active, a:visited, a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.mySlides {
+    display: none;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.uploaded_images {
+    vertical-align: middle;
+    width: 100%;
+    height: 750px;
+    object-fit: cover;
+}
+
+
+.overlay_slideimages{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.463);
+  z-index: 2;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.center_container{
+    color: white; 
+  text-align: center;
+  z-index: 4;
+  width: 100%;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.37);
+}
+
+#centertitle{
+    font-size: 10vw;
+    font-weight: bold;
+    font-family: 'Jost', sans-serif;
+    color: white;
+    
+}
+
+.centersubtitle{
+    font-size: 2vw;
+    
+}
+
+#btn_content{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: #008f39;
+    border: 1px solid #008f39;
+    color: white;
+    transition: ease 0.5s;
+    margin-top: 20px;
+}
+
+#container_content_div{
+    width: 100%;
+    padding-top: 50px;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+
+@keyframes fade {
+  from {opacity: .5} 
+  to {opacity: 1}
+}
+
+
+#headercontainer{
+    width: 100%;
+    max-width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: fixed;
+    z-index: 10;
+    
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+
+
+
+
+
+.contentdiv{
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.content_div{
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.bullet{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.container{
+    width: 100%;
+}
+
+.contenttitle{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color:#008f39;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    text-transform: uppercase;
+}
+
+.centersubtitle{
+    font-family: 'Jost', sans-serif;
+}
+
+.destination_nav_div{
+    width: 100%;
+    overflow-x: hidden;
+    margin: 0 auto;
+
+}
+
+.destination_nav{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+      
+}
+
+.shortcutsdiv{
+    position: relative;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  height: 250px;
+  width: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shortcutsdiv_e{
+    position: relative;
+  text-align: center;
+  color: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.btn_shortcuts{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+.shortcutsdiv:hover .overlay{
+    opacity: 1;
+}
+
+.shortcutsdiv_e:hover .overlay{
+    opacity: 1;
+}
+
+
+.overlay{
+    position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  transition: .5s ease;
+  background: rgba(0, 0, 0, 0.463);
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.centeredtxt {
+color: white;
+font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px black;
+  
+}
+
+.slidediv{
+    width:100%;
+    text-align: center;
+}
+
+.btn_slide{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #008f39;
+    color: #008f39;
+    transition: ease 0.5s;
+}
+
+.btn_slide:hover {
+    border: 1px solid #008f39;
+    background-color: #008f39;
+    color: white;
+}
+
+.btndiv{
+    width:100%;
+    text-align: center;
+}
+
+.btn_viewAll{
+    padding: 10px 25%;
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #008f39;
+    color: #008f39;
+    transition: ease 0.5s;   
+}
+
+.btn_viewAll:hover {
+    
+    border: 1px solid #008f39;
+    background-color: #008f39;
+    color: white;
+}
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 90;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#user_login_modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 90;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#user_login_div{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+
+.txt_login{
+    width: 100%;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.login_icon{
+    font-size: 20px;
+}
+
+#btn_loginuser{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn_newacc{
+    width: 100%;
+    padding: 10px;
+}
+
+.login_col{
+    padding-top: 25px;
+}
+
+.login_row{
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+#btn_loginuser{
+    margin-top: 30px;
+}
+
+
+.result_newsdiv{
+    width: 100%;
+    height: auto;
+    
+}
+
+.news_container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+
+.newsshortcutsdiv{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    
+}
+
+.mainImage{
+    width: 100%;
+    height: 100%;
+}
+
+.newscenteredtxt {
+    top: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.news_title{
+    font-weight: bold;
+}
+
+
+
+.news_date{
+    color: #cccccc;
+}
+
+.category_newsinfo,.category_business, .category_lifestyle, .category_et, .category_tech{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.category_newsinfo{
+    background-color: #d9534f ;
+}
+
+.category_business{
+    background-color: #5bc0de;
+}
+
+.category_lifestyle{
+    background-color: #5cb85c;
+}
+
+.category_et{
+    background-color: #f0ad4e;
+}
+
+.category_tech{
+    background-color: #0275d8;
+}
+
+#storiescontainer{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#load_stories_div{
+    width: 100%;
+    
+}
+
+.i_stories{
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#mini_storydp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#story_writer_name{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+#story_writer_username{
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+#story_datetime{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+.storyimages{
+    max-width: 300px;
+    max-height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.storyvideos{
+    max-width: 300px;
+    max-height: 150px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.result_tipsdiv{
+    width: 100%;
+    height: auto;
+    
+}
+
+.tips_container{
+    padding: 30px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-bottom: 30px;
+    height: 90%;
+}
+
+.centeredtxt {
+    top: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.tips_title{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.tips_date{
+    color: #cccccc;
+}
+
+#btn_fpw{
+    color:#008f39;
+    cursor: pointer;
+}
+
+.fpw_body{
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.fpw_container{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fpw_div{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+#title{
+    font-weight: bold;
+    vertical-align: middle; 
+    font-family: 'Jost', sans-serif;
+    color: black;
+    font-size: 35px;
+    text-align: center;
+}
+
+@media (max-width: 750px){
+    html{
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+   body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden;
+   }
+
+    #btn_menu{
+        float: right;
+        transform: translateY(20%);
+    }
+
+    
+
+    #user_login_div{
+        width: 90%;
+    }
+
+    #storiescontainer{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .uploaded_images {
+        
+        height: 350px;
+    }
+
+    .result_newsdiv{
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
+    .result_tipsdiv{
+        padding-left: 30px;
+        padding-right: 30px;
+        
+    }
+
+    .contenttitle{
+        padding-left: 20px;
+    }
+
+    .destination_nav_div{
+        width: 95%;
+    
+    }
+
+    .shortcutsdiv_e{
+        width: 95%;
+    }
+
+  
+    
+    #centertitle{
+        font-size: 50px;
+    }
+    
+    .centersubtitle{
+        font-size: 15px;
+    }
+
+    #btn_content{
+        display: none;
+    }
+
+    #container_content_div{
+        padding-top: 0;
+    }
+
+
+    .fpw_div{
+        width: 90%;
+    }
+    
+}

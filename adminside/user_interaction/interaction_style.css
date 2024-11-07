@@ -1,0 +1,195 @@
+body{   
+    background-color: white;
+}
+
+#container{
+    height:auto;
+}
+
+#headercontainer{
+    width: 100%;
+    background-color: #00DB58;
+    color: white;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+#btn_menu{
+    float: left;
+    background-color: transparent;
+    transform: translateY(25%);
+}
+
+#headertitle{
+    float: right;
+    font-weight: bold;
+}
+
+.storiesdiv, .d_reviewsdiv, .app_reviewsdiv{
+    background-color: white;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    overflow: auto;
+}
+
+.btn_deletecomment, .btn_deletereply{
+    width: 25px;
+    height: auto;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.btn_deletecomment, .btn_deletereply{
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+
+
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(128, 128, 128, 0.5);
+    z-index: 90;
+    justify-content: center;
+    align-items: center;
+}
+
+#viewstory_div{
+    width: 70%;
+    height: 85%;
+    background-color: white;
+    padding: 30px;
+    overflow: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#load_story_div{
+    width:100%;
+    height: 300px;
+}
+
+.c_storyimages{
+    max-width: 200px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+.c_storyvideos{
+    max-width: 200px;
+    max-height: 100px;
+    margin-top: 10px;
+}
+
+#btn_back{
+    margin-bottom: 30px;
+    background: transparent;
+    border: none;
+}
+
+#back_icon{
+    vertical-align: middle;
+    width: 30px;
+    height: auto;
+}
+
+#txt_back{
+    vertical-align: middle;
+    font-weight: bold;
+    color: #2DD846;
+}
+
+#mini_dp{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#story_writer_name{
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+}
+
+#story_writer_username{
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+#story_datetime{
+    font-size: 10px;
+    margin-right: 5px;
+    color: #cccccc;
+}
+
+.btn_reply{
+    color: #2DD846;
+    font-weight: bold;
+}
+
+.view_repliesdiv{
+    margin-left: 50px;
+}
+
+.i_comments{
+    border-bottom: 1px solid #cccccc;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.star-light
+{
+	color:#e9ecef;
+}
+
+
+
+.btn_star_rating{
+    background: white;
+    width: 150px;
+    padding: 5px;
+    border-radius: 50px;
+    margin: 2px;
+    border: 2px solid #2DD846;
+}
+
+@media (max-width: 750px){
+    #headercontainer{
+        padding: 10px;
+    }
+
+    #headertitle{
+        display: block;
+        text-align: right;
+        font-size: 17px;
+        margin-right: 10px;
+        
+    }
+
+    #btn_menu{
+        float: right;
+        transform: translateY(15%);
+    }
+
+    #navbar{
+        width: 60%;
+    }
+
+    
+}
